@@ -1,0 +1,29 @@
+@startuml
+' config
+hide circle
+
+
+entity "Student" {
+student_id: INTEGER
+--
+first_name: TEXT
+last_name: TEXT
+date_of_birth: DATE
+
+}
+
+entity "Class" {
+class_id: PK
+Name: TEXT
+teacher_id: INTEGER
+Level: TEXT
+Room: 01
+}
+
+note right
+<b>Note</b>
+This is the class table it needs to be normalised.
+end note
+
+Student ||--{ Class : takes
+@enduml
