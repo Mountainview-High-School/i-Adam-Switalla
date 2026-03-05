@@ -32,7 +32,7 @@ VALUES
 INSERT INTO Teacher (teacher_name)
 VALUES 
 ("Mr Weatherall"),
-("Mr pp poo poo"),
+("Mr Jedd"),
 ("Mr Duncan");
 
 INSERT INTO Class (class_name, level, teacher_id, room_id)
